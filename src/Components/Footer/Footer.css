@@ -1,0 +1,125 @@
+.footer_container {
+  height: 420px;
+  display: flex;
+  justify-content: space-around;
+  background: url("/public/Group\ 17432.png");
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+}
+
+.F_elem_1 {
+  width: 26%;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.F_elem_2 {
+  width: 15%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.F_elem_3 {
+  width: 26%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-direction: column;
+}
+.F_subheading_elem > ul {
+  list-style: none;
+}
+
+.logos {
+  display: flex;
+  gap: 30px;
+}
+
+.F_heading_elem {
+  color: #ffff;
+  font-size: 2rem;
+}
+
+.F_subheading_elem {
+  color: #ffff;
+  font-size: 19px;
+  line-height: 28px;
+}
+
+.F_subheading_elem > ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.the_end {
+  height: 60px;
+  color: #ffff;
+  background: #002f5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1044px) {
+  .footer_container {
+    height: 250px;
+  }
+  .F_heading_elem {
+    font-size: 1rem;
+  }
+  .F_subheading_elem {
+    font-size: 0.5rem;
+    line-height: 18px;
+  }
+  .icon {
+    font-size: 10px;
+  }
+  .F_elem_1 {
+    width: 26%;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .F_elem_2 {
+    width: 15%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .F_elem_3 {
+    width: 26%;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+  }
+  .F_subheading_elem > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 0px;
+  }
+  .logos {
+    display: flex;
+    gap: 7px;
+  }
+  .the_end {
+    height: 30px;
+    font-size: 0.7rem;
+  }
+}
