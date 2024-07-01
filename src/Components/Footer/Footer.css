@@ -42,6 +42,10 @@
   gap: 30px;
 }
 
+.F_logos{
+  font-size: 20px;
+}
+
 .F_heading_elem {
   color: #ffff;
   font-size: 2rem;
@@ -121,5 +125,8 @@
   .the_end {
     height: 30px;
     font-size: 0.7rem;
+  }
+  .F_logos{
+    font-size: 10px;
   }
 }
